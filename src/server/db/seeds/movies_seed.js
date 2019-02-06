@@ -13,7 +13,7 @@ exports.seed = function (knex, Promise) {
     })
     .then(() => {
       return knex('movies').insert({
-        name: 'Mission: Impossible - Fallout',
+        name: 'Mission: Impossible',
         genre: 'Action',
         director: 'Christopher McQuarrie',
         rating: 3,

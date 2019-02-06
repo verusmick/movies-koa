@@ -6,6 +6,17 @@ Databases
 Create two local Postgres databases 
 + `movies_koa` and `movies_koa_test`
 
+Run Db Migration
+--------------------
+Install knex
++ `npm install knex -g`
+
++ `knex migrate:latest --env development`
+
+Seed DataBase
+--------------------
++ `knex seed:run --env development`
+
 Install node modules
 --------------------
 Run the following command from the root of your source files
